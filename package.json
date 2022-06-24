@@ -5,9 +5,10 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "pod": "cd ios && pod install && cd ..",
+    "pod_m1": "cd ios && arch -x86_64 pod install && cd ..",
+    "device-sunghyun": "npx react-native run-ios --device=\"iPhone 13 mini (Sunghyun)\"",
+    "clear-cache": "watchman watch-del-all && rm -rf node_modules ios/Pods"
   },
   "dependencies": {
     "react": "18.0.0",

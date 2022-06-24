@@ -1,4 +1,4 @@
-package com.osori_app;
+package com.soen.osori;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
