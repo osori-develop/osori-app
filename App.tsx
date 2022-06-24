@@ -8,7 +8,7 @@
  * @format
  */
 
-import React from 'react';
+import React, {useEffect} from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -26,6 +26,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import RNBootSplash from 'react-native-bootsplash';
 
 const Section: React.FC<{
   children: React.ReactNode;
@@ -62,6 +63,17 @@ const App = () => {
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
+
+  useEffect(() => {
+    const init = async () => {
+      // …do multiple sync or async tasks
+    };
+
+    init().finally(async () => {
+      await RNBootSplash.hide({fade: true});
+      // console.log('Bootsplash has been hidden successfully');
+    });
+  }, []);
 
   return (
     <SafeAreaView style={backgroundStyle}>
