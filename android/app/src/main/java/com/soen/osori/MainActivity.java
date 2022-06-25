@@ -4,6 +4,7 @@ import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
 import com.zoontek.rnbootsplash.RNBootSplash; // react-native-bootsplash
+import android.os.Bundle; // react-native-navigation
 
 
 public class MainActivity extends ReactActivity {
@@ -15,6 +16,12 @@ public class MainActivity extends ReactActivity {
   @Override
   protected String getMainComponentName() {
     return "osori_app";
+  }
+
+  // for react-native-navigation
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(null);
   }
 
   /**

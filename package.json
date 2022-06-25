@@ -11,9 +11,12 @@
     "clear-cache": "watchman watch-del-all && rm -rf node_modules ios/Pods"
   },
   "dependencies": {
+    "@react-navigation/native": "^6.0.10",
     "react": "18.0.0",
     "react-native": "0.69.0",
-    "react-native-bootsplash": "^4.2.0"
+    "react-native-bootsplash": "^4.2.0",
+    "react-native-safe-area-context": "^4.3.1",
+    "react-native-screens": "^3.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
