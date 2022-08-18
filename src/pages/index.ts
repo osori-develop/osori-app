@@ -1,5 +1,11 @@
 // home stack
 export {default as Home} from './home-tab/HomeMain';
 
-// my stack
-export {default as MyMain} from './my-tab/MyMain';
+// menu stack
+export {default as MenuMain} from './menu-tab/MenuMain';
+
+// request stack
+export {default as RequestMain} from './request-tab/RequestMain';
+
+// community stack
+export {default as CommunityMain} from './community-tab/CommunityMain';
