@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {useContext, useEffect} from 'react';
+import {CommonContext} from '~/util';
 
 import LoginTab from './LoginTab';
 import TabNavigation from './TabNavigation';
 
 export default () => {
-  const isLoggedIn = false;
+  const {isLoggedIn} = useContext(CommonContext);
+
   if (!isLoggedIn) {
     return <LoginTab />;
   }

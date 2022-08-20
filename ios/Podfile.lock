@@ -299,6 +299,8 @@ PODS:
     - RCTTypeSafety
     - React
     - ReactCommon/turbomodule/core
+  - react-native-webview (11.23.0):
+    - React-Core
   - React-perflogger (0.69.0)
   - React-RCTActionSheet (0.69.0):
     - React-Core/RCTActionSheetHeaders (= 0.69.0)
@@ -367,7 +369,7 @@ PODS:
     - React-perflogger (= 0.69.0)
   - RNBootSplash (4.2.0):
     - React-Core
-  - RNCAsyncStorage (1.12.1):
+  - RNCAsyncStorage (1.17.9):
     - React-Core
   - RNFastImage (8.5.11):
     - React-Core
@@ -432,6 +434,7 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
+  - react-native-webview (from `../node_modules/react-native-webview`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -445,7 +448,7 @@ DEPENDENCIES:
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNBootSplash (from `../node_modules/react-native-bootsplash`)
-  - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage`)"
+  - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - RNFastImage (from `../node_modules/react-native-fast-image`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -512,6 +515,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
+  react-native-webview:
+    :path: "../node_modules/react-native-webview"
   React-perflogger:
     :path: "../node_modules/react-native/ReactCommon/reactperflogger"
   React-RCTActionSheet:
@@ -539,7 +544,7 @@ EXTERNAL SOURCES:
   RNBootSplash:
     :path: "../node_modules/react-native-bootsplash"
   RNCAsyncStorage:
-    :path: "../node_modules/@react-native-community/async-storage"
+    :path: "../node_modules/@react-native-async-storage/async-storage"
   RNFastImage:
     :path: "../node_modules/react-native-fast-image"
   RNScreens:
@@ -582,6 +587,7 @@ SPEC CHECKSUMS:
   React-jsinspector: 6aced68014b275b7abd073c9598b0affd0e1669c
   React-logger: bcf33ce10afa135158c72635e621ddb94126c610
   react-native-safe-area-context: 6c12e3859b6f27b25de4fee8201cfb858432d8de
+  react-native-webview: e771bc375f789ebfa02a26939a57dbc6fa897336
   React-perflogger: aa48956d87bae67fc847acc196fae97928b96cd3
   React-RCTActionSheet: 4eaab2b885130ce9a88c8fdac5f1992315da80f6
   React-RCTAnimation: 5e91e3ceb988838fa43615bb602181be30d2b26e
@@ -595,7 +601,7 @@ SPEC CHECKSUMS:
   React-runtimeexecutor: 7ad268dee53d001697e13264c6bc8e95a902352e
   ReactCommon: 74a3b8ee497c6d50ce86ef57e15c4c5bf654b83d
   RNBootSplash: 4b38883c003e85544fe7f88b2c1d2deb52e9c41a
-  RNCAsyncStorage: b03032fdbdb725bea0bd9e5ec5a7272865ae7398
+  RNCAsyncStorage: b2489b49e38c85e10ed45a888d13a2a4c7b32ea1
   RNFastImage: 1f2cab428712a4baaf78d6169eaec7f622556dd7
   RNScreens: 40a2cb40a02a609938137a1e0acfbf8fc9eebf19
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d

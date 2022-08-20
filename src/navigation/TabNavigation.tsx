@@ -7,8 +7,8 @@ import {
   CommunityStackNavigation,
   RequestStackNavigation,
 } from '~/navigation';
-import {PImg} from '~/components';
-import {ImgUtil} from '~/asset';
+import {Img} from '~/components';
+import {imgUtil} from '~/asset';
 import {colors, pixel} from '~/util';
 
 export default () => {
@@ -26,8 +26,8 @@ export default () => {
           tabBarInactiveTintColor: colors.white.l,
           tabBarIcon: ({focused}) => {
             return (
-              <PImg
-                source={ImgUtil.icons.tab_home}
+              <Img
+                source={imgUtil.icons.tab_home}
                 width={pixel(24)}
                 aspectRatio={1}
                 color={focused ? colors.blue : colors.white.l}
@@ -44,8 +44,8 @@ export default () => {
           tabBarInactiveTintColor: colors.white.l,
           tabBarIcon: ({focused}) => {
             return (
-              <PImg
-                source={ImgUtil.icons.tab_menu}
+              <Img
+                source={imgUtil.icons.tab_menu}
                 width={pixel(24)}
                 aspectRatio={1}
                 color={focused ? colors.blue : colors.white.l}
@@ -62,8 +62,8 @@ export default () => {
           tabBarInactiveTintColor: colors.white.l,
           tabBarIcon: ({focused}) => {
             return (
-              <PImg
-                source={ImgUtil.icons.tab_community}
+              <Img
+                source={imgUtil.icons.tab_community}
                 width={pixel(24)}
                 aspectRatio={1}
                 color={focused ? colors.blue : colors.white.l}
@@ -80,8 +80,8 @@ export default () => {
           tabBarInactiveTintColor: colors.white.l,
           tabBarIcon: ({focused}) => {
             return (
-              <PImg
-                source={ImgUtil.icons.tab_request}
+              <Img
+                source={imgUtil.icons.tab_request}
                 width={pixel(24)}
                 aspectRatio={1}
                 color={focused ? colors.blue : colors.white.l}

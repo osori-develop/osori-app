@@ -12,3 +12,6 @@ export {default as CommunityMainContainer} from './community-tab/CommunityMainCo
 
 // login stack
 export {default as LogInMainContainer} from './login-tab/LogInMainContainer';
+
+// universial
+export {default as WebViewContainer} from './WebViewContainer';

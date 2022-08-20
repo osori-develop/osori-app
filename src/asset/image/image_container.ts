@@ -15,7 +15,7 @@ import icon_tab_menu from './icons/tab_menu.png';
 import icon_tab_request from './icons/tab_request.png';
 import icon_thumbs_up from './icons/thumbs_up.png';
 
-export const ImgUtil = {
+export const imgUtil = {
   icons: {
     bg_check_box: icon_bg_check_box,
     checked_check: icon_checked_check,

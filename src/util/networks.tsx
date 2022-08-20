@@ -1,1 +1,1 @@
-export const apiUrl = 'http://cbhs.asuscomm.com:9999';
+export const apiUrl = 'https://cbhs.asuscomm.com:9999';

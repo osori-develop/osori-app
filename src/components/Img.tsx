@@ -46,7 +46,6 @@ export default memo(
     onLoad,
     children,
   }: Props) => {
-    //   const FImg = isAnimated ? Animated.createAnimatedComponent(FastImage) : FastImage;
     return (
       <FastImage
         onLoadStart={onLoadStart}

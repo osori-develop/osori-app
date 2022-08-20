@@ -12,3 +12,6 @@ export {default as CommunityMainPresenter} from './request-tab/RequestMainPresen
 
 // login stack
 export {default as LoginMainPresenter} from './login-tab/LoginMainPresenter';
+
+// universial
+export {default as WebViewPresenter} from './WebViewPresenter';
